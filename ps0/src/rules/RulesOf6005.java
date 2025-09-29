@@ -41,8 +41,9 @@ public class RulesOf6005 {
     		if(implementationRequired) {
     			return false;
     		}
-        
+    		int i = 0;
     		return availableToOthers && !writtenAsCourseWork && citingYourSource;
+    		
     }
     
     /**
